@@ -12,20 +12,29 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PORT = process.env.PORT || 3001;
+const SLACK_ENABLED = process.env.SLACK_BOT_TOKEN && process.env.SLACK_BOT_TOKEN !== 'placeholder' && process.env.SLACK_SIGNING_SECRET && process.env.SLACK_SIGNING_SECRET !== 'placeholder';
 
-// Create Express receiver for Slack
-const receiver = new ExpressReceiver({
-  signingSecret: process.env.SLACK_SIGNING_SECRET,
-  endpoints: '/slack/events'
-});
+let app;
+let slackApp;
 
-// Initialize Slack app
-const slackApp = new App({
-  token: process.env.SLACK_BOT_TOKEN,
-  receiver
-});
+if (SLACK_ENABLED) {
+  // Create Express receiver for Slack
+  const receiver = new ExpressReceiver({
+    signingSecret: process.env.SLACK_SIGNING_SECRET,
+    endpoints: '/slack/events'
+  });
 
-const app = receiver.app;
+  // Initialize Slack app
+  slackApp = new App({
+    token: process.env.SLACK_BOT_TOKEN,
+    receiver
+  });
+
+  app = receiver.app;
+} else {
+  console.log('Slack credentials not configured - running in web-only mode');
+  app = express();
+}
 
 // Enable CORS for frontend
 app.use(cors());
@@ -38,6 +47,7 @@ const pendingThreads = new Map();
 // Slack Event Handlers
 // ===================
 
+if (SLACK_ENABLED) {
 // Handle app mentions - when someone @mentions the bot
 slackApp.event('app_mention', async ({ event, client, say }) => {
   try {
@@ -210,6 +220,7 @@ slackApp.action('program_select', async ({ action, body, ack, client }) => {
     console.error('Error handling program selection:', error);
   }
 });
+} // End SLACK_ENABLED block
 
 // ===================
 // REST API Endpoints
@@ -255,8 +266,14 @@ app.get('*', (req, res) => {
 // ===================
 
 (async () => {
-  await slackApp.start(PORT);
-  console.log(`⚡️ Slack bot server is running on port ${PORT}`);
-  console.log(`📡 Slack events endpoint: http://localhost:${PORT}/slack/events`);
+  if (SLACK_ENABLED) {
+    await slackApp.start(PORT);
+    console.log(`⚡️ Slack bot server is running on port ${PORT}`);
+    console.log(`📡 Slack events endpoint: http://localhost:${PORT}/slack/events`);
+  } else {
+    app.listen(PORT, () => {
+      console.log(`🌐 Web server is running on port ${PORT}`);
+    });
+  }
   console.log(`🔗 API endpoint: http://localhost:${PORT}/api`);
 })();
