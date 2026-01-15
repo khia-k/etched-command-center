@@ -208,43 +208,44 @@ body {
 }
 
 .priority-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .priority-header h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   color: #ffffff;
 }
 
 .priority-header p {
   color: #888888;
+  font-size: 0.875rem;
 }
 
 /* Team Sections */
 .team-section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .team-header {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.75rem;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #222222;
 }
 
 .team-color-bar {
-  width: 3px;
-  height: 20px;
+  width: 2px;
+  height: 16px;
   border-radius: 1px;
   background: #ffffff;
 }
 
 .team-name {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
 }
@@ -252,15 +253,15 @@ body {
 /* Programs Grid */
 .programs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 0.75rem;
 }
 
 .program-card {
   background: #0a0a0a;
   border: 1px solid #222222;
-  border-radius: 10px;
-  padding: 1.25rem;
+  border-radius: 8px;
+  padding: 1rem;
   transition: all 0.2s ease;
 }
 
@@ -269,46 +270,46 @@ body {
 }
 
 .program-name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.125rem;
   color: #ffffff;
 }
 
 .program-owner {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #666666;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .objectives-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .objective-item {
   background: #000000;
   border: 1px solid #1a1a1a;
-  border-radius: 8px;
-  padding: 0.75rem;
+  border-radius: 6px;
+  padding: 0.6rem;
 }
 
 .objective-name {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: #cccccc;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
 }
 
 .objective-buttons {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .btn-small {
-  padding: 0.35rem 0.75rem;
-  font-size: 0.7rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.65rem;
   border-radius: 4px;
   border: 1px solid #333333;
   cursor: pointer;
@@ -565,6 +566,149 @@ body {
 
 .back-link:hover {
   color: #ffffff;
+}
+
+/* Status Filter */
+.status-filter {
+  margin-bottom: 1rem;
+}
+
+.home-page .status-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.status-filter select {
+  background: #0a0a0a;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  font-family: 'Soehne', sans-serif;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.status-filter select:hover {
+  border-color: #555555;
+}
+
+.status-filter select:focus {
+  border-color: #ffffff;
+}
+
+.status-filter select option {
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+.blackpapers-filter {
+  margin-bottom: 1rem;
+  margin-top: -0.5rem;
+}
+
+/* Update Date Toggle */
+.update-date-toggle {
+  position: relative;
+  display: inline-block;
+}
+
+.date-toggle-button {
+  background: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.75rem;
+  font-family: 'Soehne', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: border-color 0.2s;
+}
+
+.date-toggle-button:hover {
+  border-color: #555555;
+}
+
+.toggle-arrow {
+  font-size: 0.6rem;
+  color: #666666;
+}
+
+.date-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.25rem;
+  background: #0a0a0a;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  min-width: 160px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.date-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: none;
+  color: #cccccc;
+  font-size: 0.75rem;
+  font-family: 'Soehne', sans-serif;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.date-option:hover {
+  background: #1a1a1a;
+}
+
+.date-option.selected {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.latest-badge {
+  font-size: 0.6rem;
+  background: #333333;
+  color: #888888;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.section-header .section-title {
+  margin-bottom: 0;
+}
+
+.modal-update-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.modal-update-header h4 {
+  color: #888888;
+  margin: 0;
 }
 
 /* Responsive */

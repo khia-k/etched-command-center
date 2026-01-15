@@ -46,6 +46,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Execute the Product Launch',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-pl-1',
@@ -64,6 +65,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Win Over the Market Groundwork',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-mg-1',
@@ -94,6 +96,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Land an AI Frontier Lab or Hyperscaler',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-fl-1',
@@ -110,6 +113,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Deals',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-d-1',
@@ -126,6 +130,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Integrate Customer Learnings and Competitive Analysis into Next-Gen',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-cl-1',
@@ -142,6 +147,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Build a Winning Cloud Deployment Playbook',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-cp-1',
@@ -158,6 +164,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Build a Winning End-Customer Success Playbook',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-cs-1',
@@ -174,6 +181,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Scale Groundwork',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-sg-1',
@@ -197,6 +205,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Deals',
     owner: 'Chase Holmes',
+    status: 'Active',
     objectives: [
       {
         id: 'gtm-ds-1',
@@ -215,6 +224,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Bring-up',
     owner: 'Pawel Kozubek',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-bu-1',
@@ -233,6 +243,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Inference / Sohu Supremacy',
     owner: 'Michael Fein',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-is-1',
@@ -240,9 +251,9 @@ export const programs = [
         successCriteria: 'Support Inference team with reliable firmware, SSW, infra, and software packages and support to hit Sohu\'s customer acceptance targets',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-2', name: 'Version 1.0 of Sohu Profiler', dueDate: '2026-02-28', status: 'Planned' },
-          { id: 'bp-sw-3', name: 'Version 2.0 of Server Health Daemon', dueDate: '2026-03-15', status: 'Planned' },
-          { id: 'bp-sw-4', name: 'Ship Debugger', dueDate: '2026-03-31', status: 'Planned' }
+          { id: 'bp-sw-2', name: 'Version 1.0 of Sohu Profiler', dueDate: '2026-02-28', status: 'Active' },
+          { id: 'bp-sw-3', name: 'Version 2.0 of Server Health Daemon', dueDate: '2026-03-15', status: 'Active' },
+          { id: 'bp-sw-4', name: 'Ship Debugger', dueDate: '2026-03-31', status: 'Active' }
         ]
       }
     ]
@@ -253,6 +264,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'MoE',
     owner: 'Christopher Zhu',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-moe-1',
@@ -271,6 +283,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Growth Ops',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-go-1',
@@ -287,6 +300,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Launch Cloud with Partner',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-lcp-1',
@@ -294,7 +308,7 @@ export const programs = [
         successCriteria: 'Launch a private cloud rack serving tokens via Artificial Analysis using the full Etched software stack.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-6', name: 'Launch Cloud with Partner', dueDate: '2026-03-31', status: 'Planned' }
+          { id: 'bp-sw-6', name: 'Launch Cloud with Partner', dueDate: '2026-03-31', status: 'Active' }
         ]
       }
     ]
@@ -305,6 +319,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Build a World-Class Infra and Emulation Program',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-ie-1',
@@ -312,8 +327,8 @@ export const programs = [
         successCriteria: 'Create systems that predict and scale license usage, emulator demand, and compute demand early. Create systems that robustly track and continuously optimize core metrics (e.g., CI, emulator queue time, misused storage servers, etc.)',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-7', name: 'Caelius Emulation Capacity Expansion', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-sw-8', name: 'Infrastructure (Licenses, Compute & Scripting - Procure)', dueDate: '2026-05-15', status: 'Planned' }
+          { id: 'bp-sw-7', name: 'Caelius Emulation Capacity Expansion', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-sw-8', name: 'Infrastructure (Licenses, Compute & Scripting - Procure)', dueDate: '2026-05-15', status: 'Active' }
         ]
       }
     ]
@@ -324,6 +339,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Build Caelius ChipSim and performance tools',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-cc-1',
@@ -331,7 +347,7 @@ export const programs = [
         successCriteria: 'Create ChipSim and performance for Caelius, enabling much faster software development, debugging, and performance optimization.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-9', name: '1.0 PRD Caelius', dueDate: '2026-04-15', status: 'Planned' }
+          { id: 'bp-sw-9', name: '1.0 PRD Caelius', dueDate: '2026-04-15', status: 'Active' }
         ]
       }
     ]
@@ -342,6 +358,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Deliver the software stack in the Caelius Program',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-cs-1',
@@ -349,7 +366,7 @@ export const programs = [
         successCriteria: 'Details to launch mid-January in the Caelius X-Func Program.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-10', name: 'Customer testbed (Have the software to be on a cloud)', dueDate: '2026-06-30', status: 'Planned' }
+          { id: 'bp-sw-10', name: 'Customer testbed (Have the software to be on a cloud)', dueDate: '2026-06-30', status: 'Active' }
         ]
       }
     ]
@@ -360,6 +377,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Test Software Program',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-tp-1',
@@ -369,11 +387,11 @@ export const programs = [
         blackpapers: [
           { id: 'bp-sw-11', name: 'SLT environment readiness and test', dueDate: '2026-03-15', status: 'In Progress' },
           { id: 'bp-sw-12', name: 'Three Week Mezzanine Test Sprint', dueDate: '2026-02-28', status: 'In Progress' },
-          { id: 'bp-sw-13', name: '4U Assembled Tray Test', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-sw-14', name: 'Production 2U and 6U Host Tests', dueDate: '2026-04-15', status: 'Planned' },
-          { id: 'bp-sw-15', name: 'Production L11 Rack Test', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-sw-16', name: 'Test Database and Integrations', dueDate: '2026-05-15', status: 'Planned' },
-          { id: 'bp-sw-17', name: 'Shop Floor Rework Tool', dueDate: '2026-05-31', status: 'Planned' }
+          { id: 'bp-sw-13', name: '4U Assembled Tray Test', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-sw-14', name: 'Production 2U and 6U Host Tests', dueDate: '2026-04-15', status: 'Active' },
+          { id: 'bp-sw-15', name: 'Production L11 Rack Test', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-sw-16', name: 'Test Database and Integrations', dueDate: '2026-05-15', status: 'Active' },
+          { id: 'bp-sw-17', name: 'Shop Floor Rework Tool', dueDate: '2026-05-31', status: 'Active' }
         ]
       }
     ]
@@ -384,6 +402,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Product Lifecycle Database',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-pld-1',
@@ -400,6 +419,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Caelius SSW and firmware',
     owner: 'David Munday',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-csf-1',
@@ -407,7 +427,7 @@ export const programs = [
         successCriteria: 'Make sure Sohu is ready to ship at scale for GPU clouds and eventually large AI labs/hyperscalers, across, reliability, logging, tracing, health checks, debug, security, and more.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-sw-18', name: 'Firmware Security', dueDate: '2026-06-30', status: 'Planned' }
+          { id: 'bp-sw-18', name: 'Firmware Security', dueDate: '2026-06-30', status: 'Active' }
         ]
       }
     ]
@@ -418,6 +438,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Taiwan',
     owner: 'Mutema Pittman',
+    status: 'Active',
     objectives: [
       {
         id: 'sw-tw-1',
@@ -436,6 +457,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Bringup',
     owner: 'Pawel Kozubek',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-bu-1',
@@ -444,12 +466,12 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-plt-1', name: 'Lab Setup and Safety', dueDate: '2026-01-31', status: 'In Progress' },
-          { id: 'bp-plt-2', name: 'Mezzanine Card 4U Replacement SOP', dueDate: '2026-02-15', status: 'Planned' },
-          { id: 'bp-plt-3', name: 'Sohu Power On & First Signs of Life', dueDate: '2026-02-28', status: 'Planned' },
-          { id: 'bp-plt-4', name: 'PV1 Sohu Module Full Functionality', dueDate: '2026-03-15', status: 'Planned' },
-          { id: 'bp-plt-5', name: 'Hand-built 8xSohu server', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-plt-6', name: 'Hand-built 4x8xSohu rack', dueDate: '2026-04-15', status: 'Planned' },
-          { id: 'bp-plt-7', name: 'Product Rack Liquid Validation', dueDate: '2026-04-30', status: 'Planned' }
+          { id: 'bp-plt-2', name: 'Mezzanine Card 4U Replacement SOP', dueDate: '2026-02-15', status: 'Active' },
+          { id: 'bp-plt-3', name: 'Sohu Power On & First Signs of Life', dueDate: '2026-02-28', status: 'Active' },
+          { id: 'bp-plt-4', name: 'PV1 Sohu Module Full Functionality', dueDate: '2026-03-15', status: 'Active' },
+          { id: 'bp-plt-5', name: 'Hand-built 8xSohu server', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-plt-6', name: 'Hand-built 4x8xSohu rack', dueDate: '2026-04-15', status: 'Active' },
+          { id: 'bp-plt-7', name: 'Product Rack Liquid Validation', dueDate: '2026-04-30', status: 'Active' }
         ]
       }
     ]
@@ -460,6 +482,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'MoE',
     owner: 'Christopher Zhu',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-moe-1',
@@ -467,8 +490,8 @@ export const programs = [
         successCriteria: 'Ensure the platform development is ready to ship the MoE pod, finalize any learning which will apply to final HW rack design & BOM configuration.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-plt-8', name: 'Hand-built 128x MoE pod', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-plt-9', name: 'Hand-built 32xSohu table', dueDate: '2026-05-15', status: 'Planned' }
+          { id: 'bp-plt-8', name: 'Hand-built 128x MoE pod', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-plt-9', name: 'Hand-built 32xSohu table', dueDate: '2026-05-15', status: 'Active' }
         ]
       }
     ]
@@ -479,6 +502,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Validation for Platform and Scale',
     owner: 'Brian Loiler',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-v-1',
@@ -497,6 +521,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Growth Ops',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-go-1',
@@ -513,6 +538,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Caelius Platform Architecture',
     owner: 'Brian Loiler',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-ca-1',
@@ -520,16 +546,16 @@ export const programs = [
         successCriteria: 'Own next-gen board, interconnect, power, mechanical, thermal, electrical, and entire platform design for Caelius systems, with clear milestones and requirements aligned to the Caelius program plan.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-plt-11', name: 'Caelius Power Architecture proposal Freeze', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-plt-12', name: 'Lock down CPU MB Arch proposal', dueDate: '2026-04-15', status: 'Planned' },
-          { id: 'bp-plt-13', name: 'Caelius Full Platform Architecture Proposal Freeze', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-plt-14', name: 'Caelius Bringup Eval board Arch', dueDate: '2026-05-15', status: 'Planned' },
-          { id: 'bp-plt-15', name: 'Rack level 1st Cable Mockup Proto', dueDate: '2026-05-31', status: 'Planned' },
-          { id: 'bp-plt-16', name: 'Blade Level 1st Mechanical Proto', dueDate: '2026-06-15', status: 'Planned' },
-          { id: 'bp-plt-17', name: 'Rack Level Blade & Chassis Mech Proto', dueDate: '2026-06-30', status: 'Planned' },
-          { id: 'bp-plt-18', name: 'TV1 PCBA Blade Proto in house', dueDate: '2026-07-15', status: 'Planned' },
-          { id: 'bp-plt-19', name: 'TV1 SI Validation Test Vehicle completed', dueDate: '2026-07-31', status: 'Planned' },
-          { id: 'bp-plt-20', name: 'TV1 Caelius Blade Power-T Test Vehicle Complete', dueDate: '2026-08-15', status: 'Planned' }
+          { id: 'bp-plt-11', name: 'Caelius Power Architecture proposal Freeze', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-plt-12', name: 'Lock down CPU MB Arch proposal', dueDate: '2026-04-15', status: 'Active' },
+          { id: 'bp-plt-13', name: 'Caelius Full Platform Architecture Proposal Freeze', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-plt-14', name: 'Caelius Bringup Eval board Arch', dueDate: '2026-05-15', status: 'Active' },
+          { id: 'bp-plt-15', name: 'Rack level 1st Cable Mockup Proto', dueDate: '2026-05-31', status: 'Active' },
+          { id: 'bp-plt-16', name: 'Blade Level 1st Mechanical Proto', dueDate: '2026-06-15', status: 'Active' },
+          { id: 'bp-plt-17', name: 'Rack Level Blade & Chassis Mech Proto', dueDate: '2026-06-30', status: 'Active' },
+          { id: 'bp-plt-18', name: 'TV1 PCBA Blade Proto in house', dueDate: '2026-07-15', status: 'Active' },
+          { id: 'bp-plt-19', name: 'TV1 SI Validation Test Vehicle completed', dueDate: '2026-07-31', status: 'Active' },
+          { id: 'bp-plt-20', name: 'TV1 Caelius Blade Power-T Test Vehicle Complete', dueDate: '2026-08-15', status: 'Active' }
         ]
       }
     ]
@@ -540,6 +566,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Caelius Platform Manufacturing Strategy',
     owner: 'Brian Loiler',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-cm-1',
@@ -547,11 +574,11 @@ export const programs = [
         successCriteria: 'Decide early in the program how we plan to product Caelius at massive scale (e.g., CM or otherwise), and partner with Production to evaluate options and make a decision early. Setup an execution plan which aligns to Caelius tapeout 2027',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-plt-21', name: 'Finalize ODM Selection for Caelius', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-plt-22', name: 'Caelius TTV Kick Off', dueDate: '2026-05-15', status: 'Planned' },
-          { id: 'bp-plt-23', name: 'Caelius Coldplate Vendor Selection', dueDate: '2026-05-31', status: 'Planned' },
-          { id: 'bp-plt-24', name: 'Caelius 224G Connector Selection', dueDate: '2026-06-15', status: 'Planned' },
-          { id: 'bp-plt-25', name: 'Platform development schedule', dueDate: '2026-06-30', status: 'Planned' }
+          { id: 'bp-plt-21', name: 'Finalize ODM Selection for Caelius', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-plt-22', name: 'Caelius TTV Kick Off', dueDate: '2026-05-15', status: 'Active' },
+          { id: 'bp-plt-23', name: 'Caelius Coldplate Vendor Selection', dueDate: '2026-05-31', status: 'Active' },
+          { id: 'bp-plt-24', name: 'Caelius 224G Connector Selection', dueDate: '2026-06-15', status: 'Active' },
+          { id: 'bp-plt-25', name: 'Platform development schedule', dueDate: '2026-06-30', status: 'Active' }
         ]
       }
     ]
@@ -562,6 +589,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Growth Ops',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-gong-1',
@@ -578,6 +606,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Validation for Platform and Scale',
     owner: 'Brian Loiler',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-vs-1',
@@ -608,6 +637,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Taiwan',
     owner: 'Mutema Pittman',
+    status: 'Active',
     objectives: [
       {
         id: 'plt-tw-1',
@@ -626,6 +656,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Inference',
     owner: 'Michael Fein',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-inf-1',
@@ -634,9 +665,9 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-asic-1', name: 'Llama 70B InferenceMAX', dueDate: '2026-02-28', status: 'In Progress' },
-          { id: 'bp-asic-2', name: 'Other 1x System Models', dueDate: '2026-03-15', status: 'Planned' },
-          { id: 'bp-asic-3', name: 'Nebius/Mistral Customer Acceptance Tests', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-asic-4', name: 'Non-transformer Demos', dueDate: '2026-04-15', status: 'Planned' }
+          { id: 'bp-asic-2', name: 'Other 1x System Models', dueDate: '2026-03-15', status: 'Active' },
+          { id: 'bp-asic-3', name: 'Nebius/Mistral Customer Acceptance Tests', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-asic-4', name: 'Non-transformer Demos', dueDate: '2026-04-15', status: 'Active' }
         ]
       },
       {
@@ -645,8 +676,8 @@ export const programs = [
         successCriteria: 'Support MoE model inference on Sohu systems.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-asic-5', name: 'DeepSeek on 2xPP Systems', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-asic-6', name: 'DeepSeek InferenceMax', dueDate: '2026-05-15', status: 'Planned' }
+          { id: 'bp-asic-5', name: 'DeepSeek on 2xPP Systems', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-asic-6', name: 'DeepSeek InferenceMax', dueDate: '2026-05-15', status: 'Active' }
         ]
       }
     ]
@@ -657,6 +688,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'WS / FT',
     owner: 'Feng Wang',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-wsft-1',
@@ -665,9 +697,9 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-asic-7', name: 'Wafer sort sprint', dueDate: '2026-02-15', status: 'In Progress' },
-          { id: 'bp-asic-8', name: 'Two week FT Sprint (Replacing Cut-and-go Final Test Plan)', dueDate: '2026-02-28', status: 'Planned' },
-          { id: 'bp-asic-9', name: 'Completed Silicon Yield Characterization', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-asic-10', name: 'Criteria for next wafer kickoff', dueDate: '2026-04-15', status: 'Planned' }
+          { id: 'bp-asic-8', name: 'Two week FT Sprint (Replacing Cut-and-go Final Test Plan)', dueDate: '2026-02-28', status: 'Active' },
+          { id: 'bp-asic-9', name: 'Completed Silicon Yield Characterization', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-asic-10', name: 'Criteria for next wafer kickoff', dueDate: '2026-04-15', status: 'Active' }
         ]
       }
     ]
@@ -678,6 +710,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Sohu Supremacy',
     owner: 'Michael Fein',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-ss-1',
@@ -685,7 +718,7 @@ export const programs = [
         successCriteria: 'Produce clear, repeatable benchmarks (InferenceMax and other public proof points) that show Sohu\'s performance advantage. Help secure and execute partnerships, customer case studies, research partnerships, hackathons, and other opportunities to showcase Sohu\'s performance and capabilities to the public.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-asic-11', name: 'Non-transformer Demos', dueDate: '2026-04-30', status: 'Planned' }
+          { id: 'bp-asic-11', name: 'Non-transformer Demos', dueDate: '2026-04-30', status: 'Active' }
         ]
       }
     ]
@@ -696,6 +729,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Inference',
     owner: 'Michael Fein',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-iw-1',
@@ -703,8 +737,8 @@ export const programs = [
         successCriteria: 'Create an open-source developer ecosystem that rapidly expands Sohu\'s model coverage and minimizes time to support new models. Get regular feedback on the APIs and quickly iterate to meet developer and customer needs. Engage industry leaders on this front.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-asic-12', name: 'Kayak Integrations', dueDate: '2026-05-31', status: 'Planned' },
-          { id: 'bp-asic-13', name: 'Externally Accessible Model Toolkit', dueDate: '2026-06-15', status: 'Planned' }
+          { id: 'bp-asic-12', name: 'Kayak Integrations', dueDate: '2026-05-31', status: 'Active' },
+          { id: 'bp-asic-13', name: 'Externally Accessible Model Toolkit', dueDate: '2026-06-15', status: 'Active' }
         ]
       }
     ]
@@ -715,6 +749,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Growth Ops',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-go-1',
@@ -731,6 +766,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'ASIC / ARCH Caelius Program',
     owner: 'Saptadeep Pal',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-c-1',
@@ -739,25 +775,25 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-asic-14', name: 'Architecture Foundation & Macro Definition', dueDate: '2026-03-31', status: 'In Progress' },
-          { id: 'bp-asic-15', name: 'Clocking & Reset Architecture', dueDate: '2026-04-15', status: 'Planned' },
-          { id: 'bp-asic-16', name: 'Feature Set & Programming Model', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-asic-17', name: 'Simulator Infrastructure', dueDate: '2026-05-15', status: 'Planned' },
-          { id: 'bp-asic-18', name: 'Packaging', dueDate: '2026-05-31', status: 'Planned' },
-          { id: 'bp-asic-19', name: 'Systolic Array', dueDate: '2026-06-15', status: 'Planned' },
-          { id: 'bp-asic-20', name: 'HBM Control Unit', dueDate: '2026-06-30', status: 'Planned' },
-          { id: 'bp-asic-21', name: 'Memory Controller', dueDate: '2026-07-15', status: 'Planned' },
-          { id: 'bp-asic-22', name: 'CSRAM', dueDate: '2026-07-31', status: 'Planned' },
-          { id: 'bp-asic-23', name: 'Datalink + NLU + D2D Datapath', dueDate: '2026-08-15', status: 'Planned' },
-          { id: 'bp-asic-24', name: 'Clock, Reset & Timing Infrastructure', dueDate: '2026-08-31', status: 'Planned' },
-          { id: 'bp-asic-25', name: 'NoC Architecture & Integration', dueDate: '2026-09-15', status: 'Planned' },
-          { id: 'bp-asic-26', name: 'mCPU & Security Subsystem', dueDate: '2026-09-30', status: 'Planned' },
-          { id: 'bp-asic-27', name: 'Sensor, Debug & Monitoring Infrastructure', dueDate: '2026-10-15', status: 'Planned' },
-          { id: 'bp-asic-28', name: 'IO Die Peripherals', dueDate: '2026-10-31', status: 'Planned' },
-          { id: 'bp-asic-29', name: 'Verification v0.3', dueDate: '2026-11-15', status: 'Planned' },
-          { id: 'bp-asic-30', name: 'PD Methodology', dueDate: '2026-11-30', status: 'Planned' },
-          { id: 'bp-asic-31', name: 'Power Methodology', dueDate: '2026-12-15', status: 'Planned' },
-          { id: 'bp-asic-32', name: 'PCIe Subsystem', dueDate: '2026-12-31', status: 'Planned' },
-          { id: 'bp-asic-33', name: 'DFT Methodology', dueDate: '2027-01-15', status: 'Planned' }
+          { id: 'bp-asic-15', name: 'Clocking & Reset Architecture', dueDate: '2026-04-15', status: 'Active' },
+          { id: 'bp-asic-16', name: 'Feature Set & Programming Model', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-asic-17', name: 'Simulator Infrastructure', dueDate: '2026-05-15', status: 'Active' },
+          { id: 'bp-asic-18', name: 'Packaging', dueDate: '2026-05-31', status: 'Active' },
+          { id: 'bp-asic-19', name: 'Systolic Array', dueDate: '2026-06-15', status: 'Active' },
+          { id: 'bp-asic-20', name: 'HBM Control Unit', dueDate: '2026-06-30', status: 'Active' },
+          { id: 'bp-asic-21', name: 'Memory Controller', dueDate: '2026-07-15', status: 'Active' },
+          { id: 'bp-asic-22', name: 'CSRAM', dueDate: '2026-07-31', status: 'Active' },
+          { id: 'bp-asic-23', name: 'Datalink + NLU + D2D Datapath', dueDate: '2026-08-15', status: 'Active' },
+          { id: 'bp-asic-24', name: 'Clock, Reset & Timing Infrastructure', dueDate: '2026-08-31', status: 'Active' },
+          { id: 'bp-asic-25', name: 'NoC Architecture & Integration', dueDate: '2026-09-15', status: 'Active' },
+          { id: 'bp-asic-26', name: 'mCPU & Security Subsystem', dueDate: '2026-09-30', status: 'Active' },
+          { id: 'bp-asic-27', name: 'Sensor, Debug & Monitoring Infrastructure', dueDate: '2026-10-15', status: 'Active' },
+          { id: 'bp-asic-28', name: 'IO Die Peripherals', dueDate: '2026-10-31', status: 'Active' },
+          { id: 'bp-asic-29', name: 'Verification v0.3', dueDate: '2026-11-15', status: 'Active' },
+          { id: 'bp-asic-30', name: 'PD Methodology', dueDate: '2026-11-30', status: 'Active' },
+          { id: 'bp-asic-31', name: 'Power Methodology', dueDate: '2026-12-15', status: 'Active' },
+          { id: 'bp-asic-32', name: 'PCIe Subsystem', dueDate: '2026-12-31', status: 'Active' },
+          { id: 'bp-asic-33', name: 'DFT Methodology', dueDate: '2027-01-15', status: 'Active' }
         ]
       },
       {
@@ -782,6 +818,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Support Production to Secure Back-End and IP Providers for Caelius',
     owner: 'Saptadeep Pal',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-be-1',
@@ -798,6 +835,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Launch a Silicon Characterization, Production, and Qualification Program',
     owner: 'Saptadeep Pal',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-char-1',
@@ -805,7 +843,7 @@ export const programs = [
         successCriteria: 'Identify opportunities to improve Sohu yield, quality, and reliability after bringup. Expedite time to qualification and systematically identify opportunities to minimize Etched\'s reliance on external vendors, such as AlphaWave.',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-asic-34', name: 'Yield optimization', dueDate: '2026-06-30', status: 'Planned' }
+          { id: 'bp-asic-34', name: 'Yield optimization', dueDate: '2026-06-30', status: 'Active' }
         ]
       }
     ]
@@ -816,6 +854,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Inference',
     owner: 'Michael Fein',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-is-1',
@@ -832,6 +871,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'ASIC Scale Groundwork',
     owner: 'Saptadeep Pal',
+    status: 'Active',
     objectives: [
       {
         id: 'asic-sg-1',
@@ -857,6 +897,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Deliver production ready Sohu racks',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-sr-1',
@@ -865,13 +906,13 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-prod-1', name: 'Dummy Package Assembly', dueDate: '2026-02-15', status: 'In Progress' },
-          { id: 'bp-prod-2', name: 'Mock Rack Delivery', dueDate: '2026-02-28', status: 'Planned' },
-          { id: 'bp-prod-3', name: 'Logistics and Warehouse Enablement', dueDate: '2026-03-15', status: 'Planned' },
-          { id: 'bp-prod-4', name: 'Sohu HW Compliance', dueDate: '2026-03-31', status: 'Planned' },
-          { id: 'bp-prod-5', name: 'Sohu HW Certifications', dueDate: '2026-04-15', status: 'Planned' },
-          { id: 'bp-prod-6', name: 'Pegatron L10 SOW Finalization', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-prod-7', name: 'Pegatron L11 SOW Finalization', dueDate: '2026-05-15', status: 'Planned' },
-          { id: 'bp-prod-8', name: 'Pegatron MSA & MPA Finalization', dueDate: '2026-05-31', status: 'Planned' }
+          { id: 'bp-prod-2', name: 'Mock Rack Delivery', dueDate: '2026-02-28', status: 'Active' },
+          { id: 'bp-prod-3', name: 'Logistics and Warehouse Enablement', dueDate: '2026-03-15', status: 'Active' },
+          { id: 'bp-prod-4', name: 'Sohu HW Compliance', dueDate: '2026-03-31', status: 'Active' },
+          { id: 'bp-prod-5', name: 'Sohu HW Certifications', dueDate: '2026-04-15', status: 'Active' },
+          { id: 'bp-prod-6', name: 'Pegatron L10 SOW Finalization', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-prod-7', name: 'Pegatron L11 SOW Finalization', dueDate: '2026-05-15', status: 'Active' },
+          { id: 'bp-prod-8', name: 'Pegatron MSA & MPA Finalization', dueDate: '2026-05-31', status: 'Active' }
         ]
       }
     ]
@@ -882,6 +923,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Manufacturing Readiness',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-mr-1',
@@ -912,6 +954,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Growth Ops',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-go-1',
@@ -928,6 +971,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Manufacturing Readiness',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-mrw-1',
@@ -951,6 +995,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Caelius Manufacturing Readiness',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-cm-1',
@@ -958,12 +1003,12 @@ export const programs = [
         successCriteria: 'Identify and secure key manufacturing partners, tooling, materials, and ramp timelines for Caelius',
         hasBlackpapers: true,
         blackpapers: [
-          { id: 'bp-prod-9', name: 'First pass supplier list review for Gen 2', dueDate: '2026-04-30', status: 'Planned' },
-          { id: 'bp-prod-10', name: 'Contract Manufacturing RFP Process for Gen 2', dueDate: '2026-05-31', status: 'Planned' },
-          { id: 'bp-prod-11', name: 'DFX Platform Review', dueDate: '2026-06-15', status: 'Planned' },
-          { id: 'bp-prod-12', name: 'Critical Component Risk Assessment', dueDate: '2026-06-30', status: 'Planned' },
-          { id: 'bp-prod-13', name: 'Costed BOM & Sensitivity Analysis', dueDate: '2026-07-15', status: 'Planned' },
-          { id: 'bp-prod-14', name: 'Initial Silicion Kickoff Quantities at Tapeout', dueDate: '2026-07-31', status: 'Planned' }
+          { id: 'bp-prod-9', name: 'First pass supplier list review for Gen 2', dueDate: '2026-04-30', status: 'Active' },
+          { id: 'bp-prod-10', name: 'Contract Manufacturing RFP Process for Gen 2', dueDate: '2026-05-31', status: 'Active' },
+          { id: 'bp-prod-11', name: 'DFX Platform Review', dueDate: '2026-06-15', status: 'Active' },
+          { id: 'bp-prod-12', name: 'Critical Component Risk Assessment', dueDate: '2026-06-30', status: 'Active' },
+          { id: 'bp-prod-13', name: 'Costed BOM & Sensitivity Analysis', dueDate: '2026-07-15', status: 'Active' },
+          { id: 'bp-prod-14', name: 'Initial Silicion Kickoff Quantities at Tapeout', dueDate: '2026-07-31', status: 'Active' }
         ]
       },
       {
@@ -981,6 +1026,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Manufacturing Readiness',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-mrs-1',
@@ -1018,6 +1064,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Customer Readiness',
     owner: 'Mike Hsieh',
+    status: 'Active',
     objectives: [
       {
         id: 'prod-cr-1',
@@ -1036,6 +1083,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Docs',
     owner: 'Jack Kiernan',
+    status: 'Active',
     objectives: [
       {
         id: 'docs-1',
@@ -1044,7 +1092,7 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-docs-1', name: 'Shippable P0/P1 Sohu Documentation', dueDate: '2026-03-31', status: 'In Progress' },
-          { id: 'bp-docs-2', name: 'Shippable P1/P2 Documentation', dueDate: '2026-04-30', status: 'Planned' }
+          { id: 'bp-docs-2', name: 'Shippable P1/P2 Documentation', dueDate: '2026-04-30', status: 'Active' }
         ]
       }
     ]
@@ -1057,6 +1105,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Build the Team for our Critical Programs',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-cp-1',
@@ -1065,7 +1114,7 @@ export const programs = [
         hasBlackpapers: true,
         blackpapers: [
           { id: 'bp-gops-1', name: 'ASIC Hiring Requirements for Caelius', dueDate: '2026-02-28', status: 'In Progress' },
-          { id: 'bp-gops-2', name: 'Inference Hiring Requirements for Sohu', dueDate: '2026-03-15', status: 'Planned' }
+          { id: 'bp-gops-2', name: 'Inference Hiring Requirements for Sohu', dueDate: '2026-03-15', status: 'Active' }
         ]
       }
     ]
@@ -1076,6 +1125,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Talent Vacuum',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-tv-1',
@@ -1092,6 +1142,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Culture Differentiation',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-cd-1',
@@ -1108,6 +1159,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Build the Caelius Program Across Teams',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-ct-1',
@@ -1124,6 +1176,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Build People Systems for Scale',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-ss-1',
@@ -1140,6 +1193,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Explore Office Expansion',
     owner: 'Corey Richard',
+    status: 'Active',
     objectives: [
       {
         id: 'gops-oe-1',
@@ -1158,6 +1212,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Execution for Bring-Up and First Deployments',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ex-1',
@@ -1174,6 +1229,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Keep Resourcing and Procurement Unblocked',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-pr-1',
@@ -1190,6 +1246,7 @@ export const programs = [
     priorityId: 'prove-sohu',
     name: 'Establish Cost and Spend Transparency for Early Production',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ct-1',
@@ -1206,6 +1263,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Build the Capital and Supplier Narrative',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-cn-1',
@@ -1222,6 +1280,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Build a World Class Strategic Finance Capability',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-sf-1',
@@ -1238,6 +1297,7 @@ export const programs = [
     priorityId: 'win-market',
     name: 'Win the BizOps/Finance Mandate from Heaven',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-m-1',
@@ -1254,6 +1314,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Build Caelius Execution Structure',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ce-1',
@@ -1270,6 +1331,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Own Next-Gen Financial Strategy',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-nf-1',
@@ -1286,6 +1348,7 @@ export const programs = [
     priorityId: 'next-gen',
     name: 'Align Capital Strategy to Product Roadmap',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-cs-1',
@@ -1302,6 +1365,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Be Audit Ready to Unlock 2027 Capital',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ar-1',
@@ -1318,6 +1382,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Reinvent Company Operating Rhythm',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-or-1',
@@ -1334,6 +1399,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Drive a Scale-Up Strategic Finance Strategy',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ssf-1',
@@ -1350,6 +1416,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Enable Real Time Visibility Into Spend and Resource Allocation',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-v-1',
@@ -1366,6 +1433,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Drive Unit Economics and Margin Discipline',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-ue-1',
@@ -1382,6 +1450,7 @@ export const programs = [
     priorityId: 'scale',
     name: 'Build Financial Ops for Scale and Support',
     owner: 'Tim Perevozchikov',
+    status: 'Active',
     objectives: [
       {
         id: 'fin-os-1',
@@ -1394,17 +1463,40 @@ export const programs = [
   }
 ];
 
+// Status filter helper
+export const filterByStatus = (items, statusFilter, getStatus) => {
+  if (statusFilter === 'all') return items;
+
+  return items.filter(item => {
+    const status = getStatus(item);
+    switch (statusFilter) {
+      case 'active':
+        return status === 'Active' || status === 'In Progress';
+      case 'planned':
+        return status === 'Planned';
+      case 'active-planned':
+        return status === 'Active' || status === 'In Progress' || status === 'Planned';
+      case 'completed':
+        return status === 'Completed';
+      default:
+        return true;
+    }
+  });
+};
+
 // Helper functions
-export const getProgramsByPriorityAndTeam = (priorityId, teamId) => {
-  return programs.filter(p => p.priorityId === priorityId && p.teamId === teamId);
+export const getProgramsByPriorityAndTeam = (priorityId, teamId, statusFilter = 'all') => {
+  const filtered = programs.filter(p => p.priorityId === priorityId && p.teamId === teamId);
+  return filterByStatus(filtered, statusFilter, p => p.status);
 };
 
-export const getProgramsByPriority = (priorityId) => {
-  return programs.filter(p => p.priorityId === priorityId);
+export const getProgramsByPriority = (priorityId, statusFilter = 'all') => {
+  const filtered = programs.filter(p => p.priorityId === priorityId);
+  return filterByStatus(filtered, statusFilter, p => p.status);
 };
 
-export const getTeamsWithProgramsForPriority = (priorityId) => {
-  const programsForPriority = getProgramsByPriority(priorityId);
+export const getTeamsWithProgramsForPriority = (priorityId, statusFilter = 'all') => {
+  const programsForPriority = getProgramsByPriority(priorityId, statusFilter);
   const teamIds = [...new Set(programsForPriority.map(p => p.teamId))];
   return teams.filter(t => teamIds.includes(t.id));
 };
@@ -1429,4 +1521,8 @@ export const getBlackpaperById = (blackpaperId) => {
     }
   }
   return null;
+};
+
+export const filterBlackpapers = (blackpapers, statusFilter) => {
+  return filterByStatus(blackpapers, statusFilter, bp => bp.status);
 };
